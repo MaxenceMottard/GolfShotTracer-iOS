@@ -21,6 +21,7 @@
 		D02A57F82A69270C00418D96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D02A57FB2A69270C00418D96 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D02A58022A69445F00418D96 /* GolfBallTracking.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = GolfBallTracking.mlmodel; sourceTree = "<group>"; };
+		D054D0522A6AB7BA0072329F /* Golf-Shot-Tracer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Golf-Shot-Tracer-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +54,7 @@
 		D02A57F32A69270B00418D96 /* Golf Shot Tracer */ = {
 			isa = PBXGroup;
 			children = (
+				D054D0522A6AB7BA0072329F /* Golf-Shot-Tracer-Info.plist */,
 				D02A58022A69445F00418D96 /* GolfBallTracking.mlmodel */,
 				D02A57F42A69270B00418D96 /* Golf_Shot_TracerApp.swift */,
 				D02A57F62A69270B00418D96 /* ContentView.swift */,
@@ -274,6 +276,7 @@
 				DEVELOPMENT_TEAM = S4J5D3N22R;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Golf-Shot-Tracer-Info.plist";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Access to photos";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -304,6 +307,7 @@
 				DEVELOPMENT_TEAM = S4J5D3N22R;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Golf-Shot-Tracer-Info.plist";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Access to photos";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
